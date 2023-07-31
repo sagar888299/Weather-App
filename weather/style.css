@@ -1,0 +1,63 @@
+body{
+    background-image: url("bac1.jpg");
+}
+#main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    margin : 0px 350px;
+    border-radius: 12px;
+    color: white;
+    font-style: italic;
+    
+}
+#searchbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+input{
+    font-size:large;
+    border-radius: 8px;
+    width: 400px;
+}
+button{
+     border-radius: 50%;
+}
+button img {
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+}
+#section1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+#section1 h1{
+    font-size: 3.6rem;
+    font-weight: bold;
+}
+#section1 h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+#section1 img {
+    margin-left: 270px;
+    height: 100px;
+    width: 100px;
+}
+#section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+#section2 img {
+    height: 80px;
+    width: 100px;
+}
